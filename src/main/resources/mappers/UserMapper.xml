@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.api.restapi.mapper.UserMapper">
+
+    <select id="getAllUsers" resultType="com.api.restapi.model.User">
+        SELECT * FROM user_info
+    </select>
+
+    <select id="getAllCompany" resultType="com.api.restapi.model.Company">
+        SELECT * FROM company
+    </select>
+
+    <select id="getAllOrganization" resultType="com.api.restapi.model.Org">
+        SELECT * FROM org
+    </select>
+
+    <select id="getAllCommonCD" resultType="com.api.restapi.model.CommonCode">
+        SELECT * FROM common_code
+    </select>
+
+</mapper>

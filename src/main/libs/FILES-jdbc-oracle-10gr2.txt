@@ -1,0 +1,4 @@
+FILES-jdbc-oracle-10gr2
+LICENSE-jdbc-oracle-10gr2
+ojdbc14.jar
+orai18n.jar
